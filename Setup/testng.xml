@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+<!--    <test verbose="2" preserve-order="true" name="/home/vamske/learnings/java/testing/testNG/Setup">-->
+<!--        <classes>-->
+<!--            <class name="FirstTestCase"></class>-->
+<!--            <class name="com.testNG.testing.SecondTestCase"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="annotationsDemo">-->
+<!--        <classes>-->
+<!--            <class name="TC1">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <exclude name="test3"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TC2">-->
+<!--                <methods>-->
+<!--                    <include name="test4"/>-->
+<!--                    <include name="test5"/>-->
+<!--                    <exclude name="test6"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    -->
+<!--    <test name="grouping">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="regression"/>-->
+
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.testNG.testing.GroupingExample"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="parameters">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="appURL" value="https://kmit.in"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.testNG.testing.ParametersExample">-->
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="ParallelTest">
+        <classes>
+            <class name="com.testNG.testing.parallelTesting.ParallelTest1"></class>
+            <class name="com.testNG.testing.parallelTesting.ParallelTest2"></class>
+        </classes>
+    </test>
+</suite>

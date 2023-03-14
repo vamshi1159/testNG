@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="parameters(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="appURL" value="https://kmit.in"/>
+    <classes>
+      <class name="com.testNG.testing.ParametersExample">
+        <methods>
+          <include name="setUp"/>
+          <include name="titleTest"/>
+          <include name="tearDown"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.testNG.testing.ParametersExample -->
+    </classes>
+  </test> <!-- parameters(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
